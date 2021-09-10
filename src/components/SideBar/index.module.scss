@@ -1,0 +1,83 @@
+@import "../../styles/Variables.scss";
+
+.container {
+  display: flex;
+  position: sticky;
+  z-index: 2;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: fit-content;
+  background-color: white;
+  
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 12vh;
+  margin-bottom: 2.5vh;
+  height: 88vh;
+  margin-left: 1rem;
+  
+  .navContainer {
+    @include flexCenter;
+    padding: 3%;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+    
+    .heading {
+      font-family: Poppins;
+      
+      display: flex;
+      
+      align-items: center;
+      
+      .avatar {
+        display: flex;
+
+        align-self: center;
+        margin: 0 auto 0.2rem 0.2rem;
+      }
+    }
+  }
+  
+  .toggleContainer {
+    flex-direction: column;
+    color: $primaryBlue;
+    
+    align-self: center;
+    margin: 2rem;
+
+    &:hover {
+      color: $primaryCyan;
+    }
+  }
+}
+
+//phone
+@include responsive("sm", "max") {
+  .heading {
+    h3 {
+      display: none;
+    }
+  }
+  .toggleContainer {
+    align-items: flex-start;
+  }
+}
+
+/* //table
+@include responsive("md", "min") {
+  .container {
+    min-width: 460px;
+  }
+}
+
+//desktop
+@include responsive("lg", "max") {
+  .container {
+    h1 {
+      width: 60%;
+    }
+  }
+} */
+

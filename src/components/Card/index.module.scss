@@ -1,0 +1,71 @@
+@import "../../styles/Variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 5px; 
+
+  height: fit-content;
+  width: 15rem;
+  border-radius: 8px;
+  padding: 0.5rem;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .avatar {
+      height: 100%;
+      width: auto;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 0 4px;
+    }
+    .name {
+      color: black;
+      font-size: 10px;
+    }
+    .area {
+      color: grey;
+      font-size: 8px;
+    }
+  }
+  .title {
+    .innerTitle {
+      color: rgb(32, 32, 32);
+      font-weight: 600;
+    }
+    .reminder {
+      font-size: 12px;
+      color: $grey;
+    }
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content {
+    font-size: 13px;
+    color: black;
+    margin: 3px 0;
+  }
+
+  .status {
+    font-size: 8px;
+  }
+
+ .submitButton {
+    margin: 4px 0;
+  }
+
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "course_id": "1",
+    "course_name": "ReactJS",
+    "job_area": "Software",
+    "starts_at": "03_05_2021",
+    "expiry date": "03_09_2021"
+  }, 
+  {
+    "course_id": "2",
+    "course_name": "Angular",
+    "job_area": "Front-end",
+    "starts_at": "03_05_2021",
+    "expiry date": "03_09_2021"
+  },
+  {
+    "course_id": "3",
+    "course_name": "NodeJS",
+    "job_area": "Back-end",
+    "starts_at": "03_05_2021",
+    "expiry date": "03_09_2021"
+  },
+  {
+    "course_id": "4",
+    "course_name": "SQL",
+    "job_area": "database admin",
+    "starts_at": "11_07_2020",
+    "expiry date": "11_09_2020"
+  },
+  {
+    "course_id": "5",
+    "course_name": "ReactJS",
+    "job_area": "Design",
+    "starts_at": "03_05_2021",
+    "expiry date": "03_09_2021"
+  },
+  {
+    "course_id": "6",
+    "course_name": "Big data",
+    "job_area": "Tech",
+    "starts_at": "04_06_2021",
+    "expiry date": "10_08_2021"
+  }, 
+  {
+    "course_id": "7",
+    "course_name": "AdobeXD",
+    "job_area": "Design",
+    "starts_at": "22_03_2021",
+    "expiry date": "05_07_2021"
+  },
+  {
+    "course_id": "8",
+    "course_name": "Balances",
+    "job_area": "Administration",
+    "starts_at": "01_08_2020",
+    "expiry date": "03_12_2020"
+  }, 
+  {
+    "course_id": "9",
+    "course_name": "Payments",
+    "job_area": "Accountability",
+    "starts_at": "10_06_2021",
+    "expiry date": "15_07_2021"
+  },
+  {
+    "course_id": "10",
+    "course_name": "Taxes",
+    "job_area": "Accountability",
+    "starts_at": "03_06_2021",
+    "expiry date": "20_07_2021"
+  }
+]
+
+

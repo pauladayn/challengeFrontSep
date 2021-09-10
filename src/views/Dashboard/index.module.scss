@@ -1,0 +1,68 @@
+@import "../../styles/Variables.scss";
+
+.container {
+  display: flex;
+  font-family: Poppins;
+  width: 95%;
+  align-items: space-between;
+
+  height: 90vh;
+
+  .pannel {
+
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    .heading {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    p {
+      font-size: 12px;
+      color: rgb(87, 87, 87);
+    }
+
+    .cardContainer {
+      justify-content: center;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 35rem;
+    }
+  }
+
+  .charts {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start; 
+    padding-top: 10rem;
+
+    .progress {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+      width: fit-content;
+    }
+  }
+}
+
+
+//phone
+@include responsive("xs", "max") {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+

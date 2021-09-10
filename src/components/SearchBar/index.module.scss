@@ -1,0 +1,83 @@
+@import "../../styles/Variables.scss";
+
+.navbar {
+  display: flex;
+z-index: 1;
+  position: fixed;
+
+ 
+
+  height: 4rem;
+
+
+  width: 100%;
+  padding-top: 0.5rem;
+  justify-content: flex-end;
+  background-color: whitesmoke;
+/*    justify-content: space-between; */
+
+
+  .search {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+    
+    width: 30%;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 3rem;
+    background-color: $secondaryCyan;
+    border-radius: 50%;
+
+    animation: rock 2s infinite linear;
+    @keyframes shake {
+      0% {
+        transform: rotate(-8deg);
+      }
+      8% {
+        transform: rotate(8deg);
+      }
+      16% {
+        transform: rotate(-8deg);
+      }
+      24% {
+        transform: rotate(8deg);
+      }
+      32% {
+        transform: rotate(-8deg);
+      }
+      40% {
+        transform: rotate(8deg);
+      }
+      48% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(0);
+      }
+    }
+  }
+}
+
+/*  padding-top: 105px;
+  padding-left: 41px;
+  box-sizing: border-box;
+  z-index: 50;
+  transition: ease-out 0.30s;
+  right: 100%;
+  
+
+  @include responsive('md', 'min') {
+    background: $secondaryBlue;
+    height: 42px;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    right: inherit;
+    z-index: 0;
+  } */
